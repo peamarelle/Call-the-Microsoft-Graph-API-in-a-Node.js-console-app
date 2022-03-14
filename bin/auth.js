@@ -23,7 +23,7 @@ const tokenRequest = {
 };
 
 const apiConfig = {
-    uri: process.env.GRAPH_ENDPOINT + '/v1.0/groups/65cda65a-7560-4e83-92e8-6ba9f43d0143/members?$count=true',
+    uri: process.env.GRAPH_ENDPOINT + `/v1.0/groups/${process.env.GROUP_ID}/members?$count=true`,
 };
 
 /**
